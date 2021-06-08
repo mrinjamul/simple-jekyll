@@ -1,0 +1,34 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+@import "variables";
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "message";
+@import "toc";
+@import "custom";
+
+// Sass for creating the swatches
+.colors {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  dt {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+  }
+
+  dd {
+    margin-left: var(--spacer);
+  }
+}

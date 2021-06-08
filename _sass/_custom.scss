@@ -1,0 +1,25 @@
+// custom css for yourself
+
+.shadow {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  /* Similar syntax to box-shadow */
+}
+
+.message-teal {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--teal-300);
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+img.main_logo {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 5%;
+  bottom: unset;
+  height: 5em;
+}

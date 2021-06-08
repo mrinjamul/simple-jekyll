@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bundle exec jekyll s -H 0.0.0.0 -l -d build

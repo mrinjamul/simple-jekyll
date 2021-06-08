@@ -1,4 +1,9 @@
-# simple-jekyll
+---
+layout: page
+title: Home
+---
+
+<img class="main_logo shadow" src="assets/apple-touch-icon-precomposed.png" alt="logo" />
 
 Simple is simpliest jekyll theme.
 
@@ -71,8 +76,6 @@ Open sourced under the [MIT license](LICENSE).
 
 ## Want to contribute?
 
-Feel free to contribute.
-
-Read [guideline](CONTRIBUTING.md) and start contributing.
+Learn more and contribute on [GitHub](https://github.com/mrinjamul/simple-jekyll).
 
 Have questions or suggestions? Feel free to [email](mailto:mrinjamul@gmail.com) us.

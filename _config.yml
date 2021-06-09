@@ -2,7 +2,7 @@
 title: Simple
 tagline: A highly customizable jekyll theme
 url:
-baseurl: "simple-jekyll"
+baseurl: "/simple-jekyll"
 permalink: pretty
 
 # Gems
@@ -18,6 +18,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - tools
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
   - LICENSE.md
   - README.md
 

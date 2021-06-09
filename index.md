@@ -7,7 +7,7 @@ title: Home
 
 Simple is simpliest jekyll theme.
 
-- turn markdown to website
+- turn markdown into website
 - Highly customizable
 
 ## Contents

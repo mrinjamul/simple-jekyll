@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Simple &middot; A highly customizable jekyll theme
+    
+  </title>
+
+  <link rel="stylesheet" href="/simple-jekyll/styles.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/simple-jekyll/assets/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/simple-jekyll/assets/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="Simple" href="/simple-jekyll/atom.xml">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Home" />
+<meta name="author" content="Injamul Mohammad Mollah" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Simple" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Injamul Mohammad Mollah"},"headline":"Home","@type":"WebSite","url":"/simple-jekyll/","name":"Simple","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+  <body>
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/simple-jekyll/" title="Home">Simple</a>
+          <small>A highly customizable jekyll theme</small>
+        </h3>
+      </header>
+
+      <main><article class="page">
+  <h1 class="page-title">Home</h1>
+  <p><img class="main_logo shadow" src="assets/apple-touch-icon-precomposed.png" alt="logo" /></p>
+
+<p>Simple is simpliest jekyll theme.</p>
+
+<ul>
+  <li>turn markdown into website</li>
+  <li>Highly customizable</li>
+</ul>
+
+<h2 id="contents">Contents</h2>
+
+<ul>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#development">Development</a></li>
+  <li><a href="#author">Author</a></li>
+  <li><a href="#license">License</a></li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="1-install-dependencies">1. Install dependencies</h3>
+
+<p><code class="language-plaintext highlighter-rouge">Simple</code> is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you’ll need to install the Jekyll gem and related dependencies:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<h3 id="quick-start">Quick start</h3>
+
+<p>To help anyone with any level of familiarity with Jekyll quickly get started, <code class="language-plaintext highlighter-rouge">Simple</code> includes everything you need for a basic Jekyll site. To that end, just clone Simple and start up Jekyll.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/mrinjamul/simple-jekyll.git
+</code></pre></div></div>
+
+<h3 id="3-running-locally">3. Running locally</h3>
+
+<p>To see your Jekyll site with <code class="language-plaintext highlighter-rouge">Simple</code> applied, start a Jekyll server. In Terminal:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>simple-jekyll
+./tools/run
+</code></pre></div></div>
+
+<p>Open <a href="http://localhost:4000">http://localhost:4000</a> in your browser, and voilà.</p>
+
+<h3 id="4-serving-it-up">4. Serving it up</h3>
+
+<p>If you host your code on GitHub, you can use <a href="https://pages.github.com">GitHub Pages</a> to host your project.</p>
+
+<ol>
+  <li>Fork this repo and switch to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch.</li>
+  <li>If you’re <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages">using a custom domain name</a>, modify the <code class="language-plaintext highlighter-rouge">CNAME</code> file to point to your new domain.</li>
+  <li>If you’re not using a custom domain name, <strong>modify the <code class="language-plaintext highlighter-rouge">baseurl</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code></strong> to point to your GitHub Pages URL. Example: for a repo at <code class="language-plaintext highlighter-rouge">github.com/username/simple</code>, use <code class="language-plaintext highlighter-rouge">http://username.github.io/simple/</code>. <strong>Be sure to include the trailing slash.</strong></li>
+  <li>Done! Head to your GitHub Pages URL or custom domain.</li>
+</ol>
+
+<p>No matter your production or hosting setup, be sure to verify the <code class="language-plaintext highlighter-rouge">baseurl</code> option file and <code class="language-plaintext highlighter-rouge">CNAME</code> settings. Not applying this correctly can mean broken styles on your site.</p>
+
+<h2 id="development">Development</h2>
+
+<p>Simple has two branches, but only one is used for active development.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">main</code> for development. <strong>All pull requests should be to submitted against <code class="language-plaintext highlighter-rouge">master</code>.</strong></li>
+  <li><code class="language-plaintext highlighter-rouge">gh-pages</code> for our hosted site. <strong>Please avoid using this branch.</strong></li>
+</ul>
+
+<p>CSS is handled via Jeykll’s built-in Sass compiler. Source Sass files are located in <code class="language-plaintext highlighter-rouge">_sass/</code>, included into <code class="language-plaintext highlighter-rouge">styles.scss</code>, and compile to <code class="language-plaintext highlighter-rouge">styles.css</code>.</p>
+
+<h2 id="author">Author</h2>
+
+<ul>
+  <li><strong>Injamul Mohammad Mollah</strong> <a href="mailto:mrinjamul@gmail.com">mrinjamul@gmail.com</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>Open sourced under the <a href="LICENSE">MIT license</a>.</p>
+
+<h2 id="want-to-contribute">Want to contribute?</h2>
+
+<p>Learn more and contribute on <a href="https://github.com/mrinjamul/simple-jekyll">GitHub</a>.</p>
+
+<p>Have questions or suggestions? Feel free to <a href="mailto:mrinjamul@gmail.com">email</a> us.</p>
+
+</article>
+</main>
+
+      <footer class="footer">
+        <small>
+          &copy;
+          <time datetime="2021-08-31T05:02:58+00:00"
+            >2021</time
+          >
+          Injamul Mohammad Mollah. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
